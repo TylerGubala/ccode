@@ -11,6 +11,16 @@
                 "kind": "test",
                 "isDefault": true
             }
+        },
+        {
+            "label": "init",
+            "type": "shell",
+            "command": ".vscode/tasks/init"
+        },
+        {
+            "label": "dev-init",
+            "type": "shell",
+            "command": ".vscode/tasks/dev-init"
         }
     ]
 }
